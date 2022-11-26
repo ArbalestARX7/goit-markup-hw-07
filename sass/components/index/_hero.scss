@@ -1,0 +1,50 @@
+/* Герой */
+.hero {
+    background-color: $sub-bg-color;
+    max-width: 1600px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/hero-bgi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-title {
+    margin-bottom: 30px;
+
+    color: $main-white-color;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    min-width: 216px;
+    min-height: 50px;
+    padding: 10px 32px;
+    border: 0;
+    border-radius: 4px;
+
+    color: $main-white-color;
+    background-color: $accent-color;
+    font-family: inherit;
+    cursor: pointer;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+
+    transition: background-color $timing-function;
+
+    &:hover,
+        &:focus {
+            background-color: #188ce8;
+        }
+}
+
